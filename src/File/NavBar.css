@@ -1,0 +1,68 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
+    margin: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 4.5rem;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1.5rem;
+}
+button{
+    padding: 0.375rem 1rem;
+    height: 2rem;
+    color: white;
+    background: red;
+    border-radius: 0.313rem;
+    font-weight: 500;
+}
+.hero{
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+    height: 90vh; 
+}
+.hero h1{
+    max-width: 37.5rem;
+    font-weight: 800;
+    font-size: 6.75rem;
+    line-height: 6.375rem;
+}
+.hero p{
+    font-weight: 600;
+    color: gray;
+   max-width: 25rem;
+}
+.hero-coutent{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.hero-button{
+    display: flex;
+    gap: 2.5rem;
+}
+.b-category{
+    background: transparent;
+    color: gray;
+    border: 3px solid gray;
+}
+.shopping p{
+    font-size: 0.875rem;
+    margin-bottom: 0.625rem;
+}
+.brand-icon{
+    display: flex;
+    gap: 1rem;
+}
