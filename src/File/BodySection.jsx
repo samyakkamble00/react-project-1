@@ -1,5 +1,6 @@
 import React from 'react'
-
+import simage from './images/sImage.png'
+import downlode from './images/download.png'
 const BodySection = () => {
   return (
     <>
@@ -20,8 +21,8 @@ const BodySection = () => {
             </div>
         </div>
         <div className='hero-image'>
-        <img src="./images/sImage.png" alt='shoe-images'/>
-        <img src="./download.png" alt='n-img'></img>
+        <img src={simage} alt='shoe-images'></img>
+        <img src={downlode} alt='n-img'></img>
         </div>
     </main>
 </>
